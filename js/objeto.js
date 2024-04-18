@@ -3,7 +3,7 @@ var obj = {
     idade: 26,
     profissao: "Programador",
     estudando: true
-};
+}
 
 console.log(obj);
 

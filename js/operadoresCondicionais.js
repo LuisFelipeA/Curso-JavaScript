@@ -30,7 +30,7 @@ if (n === s) {
 }
 else {
     console.log("Diferente");
-};
+}
 
 
 // Operador Lógico
@@ -38,15 +38,15 @@ else {
 // AND
 if (i < x && s !== n) {
     console.log("Entrou no 'AND'");
-};
+}
 
 // OR
 if (i < x || s === n) {
     console.log("Entrou no 'OR'");
-};
+}
 
 // NOT
 
 if (!false) {
     console.log("entrou no 'NOT'");
-};
+}
