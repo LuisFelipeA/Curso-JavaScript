@@ -30,3 +30,25 @@ console.log(arr[arr.length -1]);
 // isArray
 console.log(Array.isArray(5));
 console.log(Array.isArray(arr));
+
+
+// splice - splice(posição, qtdRemover, addElemento) 
+
+arr.splice(2,0, 999); // adcionar
+console.log(arr);
+
+arr.splice(4,1); // remover
+console.log(arr);
+
+
+// indexOf
+console.log(arr.indexOf(2));
+
+
+// join
+var arr2= ['O', 'Rato', 'Roeu', 'a', 'roupa'];
+console.log(arr2.join(', '));
+
+
+// reverse
+console.log(arr2.reverse());
